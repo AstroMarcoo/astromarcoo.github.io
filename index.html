@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AstroMarco — astronomia, spazio, articoli, curiosità e calendario astronomico 2026.">
+  <meta name="theme-color" content="#070416">
+  <title>AstroMarco | Astronomia e Spazio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#home"><span class="logo-dot">✦</span>Astro<span>Marco</span></a>
+    <nav>
+      <a href="#articoli">Articoli</a>
+      <a href="#calendario">Calendario</a>
+      <a href="#chi-sono">Chi sono</a>
+      <a class="social" href="https://linktr.ee/astroomarcoo" target="_blank" rel="noopener">Social ↗</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="kicker">ASTRONOMIA • SPAZIO • DIVULGAZIONE</p>
+        <h1>Il cielo,<br><em>visto da vicino.</em></h1>
+        <p class="lead">Sono AstroMarco. Racconto l'universo con parole semplici, immagini spettacolari e appuntamenti da non perdere.</p>
+        <div class="actions">
+          <a class="btn primary" href="#articoli">Scopri gli articoli</a>
+          <a class="btn secondary" href="#calendario">Calendario 2026</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-ring"></div>
+        <img src="assets/astromarco.jpg" alt="AstroMarco" class="portrait">
+        <div class="portrait-caption"><strong>ASTROMARCO</strong><span>creator • astronomia</span></div>
+      </div>
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="planet planet-one"></div>
+      <div class="planet planet-two"></div>
+    </section>
+
+    <section class="ticker"><span>✦ OSSERVA</span><span>SCOPRI</span><span>IMPARA</span><span>MERAVIGLIATI</span><span>✦ OSSERVA</span><span>SCOPRI</span></section>
+
+    <section class="section intro">
+      <div class="section-label">01 / IL PROGETTO</div>
+      <div class="intro-grid">
+        <h2>Uno spazio per chi<br><span>guarda in alto.</span></h2>
+        <p>AstroMarco è un punto d'incontro tra divulgazione e meraviglia: articoli, guide, curiosità e un calendario pratico per sapere <strong>quando guardare il cielo</strong>.</p>
+      </div>
+    </section>
+
+    <section id="articoli" class="section">
+      <div class="section-head"><div><div class="section-label">02 / DAL BLOG</div><h2>Storie dallo spazio</h2></div><span class="big-number">03</span></div>
+      <div class="cards">
+        <article class="card card-large">
+          <div class="card-image image-pillars"></div>
+          <div class="card-content"><span class="tag">UNIVERSO</span><h3>I Pilastri della Creazione: dove nascono le stelle</h3><p>Gas, polveri e stelle appena nate: uno dei paesaggi più incredibili osservati dal James Webb.</p><a href="#" onclick="return false">Leggi la storia →</a></div>
+        </article>
+        <article class="card">
+          <div class="card-image image-carina"></div>
+          <div class="card-content"><span class="tag">JWST</span><h3>Quando una foto dello spazio è anche scienza</h3><p>Come trasformiamo la luce invisibile raccolta dai telescopi in immagini che possiamo vedere.</p><a href="#" onclick="return false">Leggi la storia →</a></div>
+        </article>
+        <article class="card mini-card">
+          <div class="mini-icon">☄</div><div class="card-content"><span class="tag">OSSERVAZIONE</span><h3>Come iniziare a osservare il cielo</h3><p>Non serve un telescopio costoso: ecco da dove partire.</p><a href="#" onclick="return false">Leggi la guida →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="calendario" class="section calendar">
+      <div class="section-head"><div><div class="section-label">03 / SAVE THE DATE</div><h2>Calendario astronomico 2026</h2></div></div>
+      <div class="filters" role="group" aria-label="Filtra eventi">
+        <button class="filter active" data-filter="tutti">Tutti</button><button class="filter" data-filter="eclissi">Eclissi</button><button class="filter" data-filter="meteoriti">Meteore</button><button class="filter" data-filter="pianeti">Pianeti</button><button class="filter" data-filter="luna">Luna</button><button class="filter" data-filter="stagioni">Stagioni</button>
+      </div>
+      <div id="events" class="events"></div>
+      <p class="note">Le condizioni di visibilità dipendono dalla località. Per osservazioni precise, controlla sempre orari e direzione del fenomeno.</p>
+    </section>
+
+    <section id="chi-sono" class="section about">
+      <div class="about-photo"><img src="assets/astromarco.jpg" alt="AstroMarco"></div>
+      <div class="about-copy"><div class="section-label">04 / CHI SONO</div><h2>Portiamo<br><span>l'universo</span> più vicino.</h2><p>AstroMarco nasce dalla voglia di rendere l'astronomia più semplice, curiosa e coinvolgente. Qui puoi seguire il progetto, leggere gli articoli e trovare tutti i miei canali.</p><a class="btn primary" href="https://linktr.ee/astroomarcoo" target="_blank" rel="noopener">Tutti i miei social ↗</a></div>
+    </section>
+  </main>
+
+  <footer><div><a class="logo" href="#home">Astro<span>Marco</span> ✦</a><p>Astronomia, spazio e divulgazione.</p></div><div class="footer-links"><a href="#articoli">Articoli</a><a href="#calendario">Calendario</a><a href="https://linktr.ee/astroomarcoo" target="_blank" rel="noopener">Linktree</a></div><small>© 2026 AstroMarco</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
